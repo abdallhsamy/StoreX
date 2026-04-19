@@ -19,5 +19,6 @@ StoreX is a **TypeScript-first**, **Vue 3–oriented** state toolkit shipped as 
 | [Redux compatibility](redux-compat.md) | `@storex/redux-compat` (separate from core stores) |
 | [CLI](cli.md) | `storex create`, migrate/doctor stubs |
 | [Contributing](contributing.md) | Local dev, build order, Vitest, common footguns |
+| [Publishing to npm](publishing.md) | Version bumps, `pnpm publish`, scoped access |
 
 The repository [README](../README.md) stays the high-level entry; these pages go deeper and stay aligned with the **current** APIs in `packages/*/src`.

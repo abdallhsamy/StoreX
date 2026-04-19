@@ -23,7 +23,9 @@
       "import": "./dist/ssr.js"
     }
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc -p tsconfig.build.json"
   },
@@ -39,5 +41,26 @@
   },
   "devDependencies": {
     "vue": "^3.5.13"
+  },
+  "license": "MIT",
+  "description": "Umbrella package: core + persist + devtools + ssr + testing.",
+  "keywords": [
+    "storex",
+    "vue",
+    "vue3",
+    "state",
+    "pinia"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abdallhsamy/StoreX.git",
+    "directory": "packages/storex"
+  },
+  "bugs": {
+    "url": "https://github.com/abdallhsamy/StoreX/issues"
+  },
+  "homepage": "https://github.com/abdallhsamy/StoreX#readme",
+  "engines": {
+    "node": ">=18"
   }
 }

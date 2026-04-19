@@ -343,7 +343,18 @@ Subpath exports keep bundles tree-shakable: only imported entrypoints pull weigh
 
 ## License
 
-Add a `LICENSE` file to the repository root when you are ready to publish; until then, treat usage as **private / internal** unless you specify otherwise.
+Published packages are **MIT** — see [`LICENSE`](LICENSE).
+
+## Publishing to npm
+
+From the repo root (after `npm login` and with rights to the **`@storex`** scope):
+
+```bash
+pnpm publish:npm:dry   # build + pack, no upload
+pnpm publish:npm       # build + publish all workspace packages
+```
+
+Details: [docs/publishing.md](docs/publishing.md).
 
 ---
 

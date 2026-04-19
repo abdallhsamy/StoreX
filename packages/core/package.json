@@ -11,7 +11,9 @@
       "import": "./dist/index.js"
     }
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc -p tsconfig.build.json"
   },
@@ -24,5 +26,29 @@
   "devDependencies": {
     "pinia": "^3.0.4",
     "vue": "^3.5.13"
+  },
+  "license": "MIT",
+  "description": "Vue 3 setup-style store runtime: defineStore, registry, reactivity helpers.",
+  "keywords": [
+    "storex",
+    "vue",
+    "vue3",
+    "state",
+    "pinia"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abdallhsamy/StoreX.git",
+    "directory": "packages/core"
+  },
+  "bugs": {
+    "url": "https://github.com/abdallhsamy/StoreX/issues"
+  },
+  "homepage": "https://github.com/abdallhsamy/StoreX#readme",
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

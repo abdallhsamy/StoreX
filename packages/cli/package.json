@@ -6,12 +6,38 @@
   "bin": {
     "storex": "./dist/cli.js"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc -p tsconfig.build.json"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
     "typescript": "^5.8.3"
+  },
+  "license": "MIT",
+  "description": "storex CLI for scaffolding and migration hints.",
+  "keywords": [
+    "storex",
+    "vue",
+    "vue3",
+    "state",
+    "pinia"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abdallhsamy/StoreX.git",
+    "directory": "packages/cli"
+  },
+  "bugs": {
+    "url": "https://github.com/abdallhsamy/StoreX/issues"
+  },
+  "homepage": "https://github.com/abdallhsamy/StoreX#readme",
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

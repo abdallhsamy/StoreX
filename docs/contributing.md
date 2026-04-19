@@ -31,4 +31,4 @@ The repository **`.gitignore`** includes patterns to ignore accidental emits und
 
 ## Licensing
 
-The root **README** notes licensing until a `LICENSE` file is added; follow repository policy when contributing externally.
+The repository root **`LICENSE`** is **MIT**. Published npm tarballs inherit the **`license`** field from each `package.json`.

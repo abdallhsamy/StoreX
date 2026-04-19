@@ -6,7 +6,9 @@
     "build": "pnpm --filter @storex/core run build && pnpm --filter @storex/persist run build && pnpm --filter @storex/devtools run build && pnpm --filter @storex/testing run build && pnpm --filter @storex/pinia-compat run build && pnpm --filter @storex/redux-compat run build && pnpm --filter @storex/ssr run build && pnpm --filter storex run build && pnpm --filter @storex/cli run build",
     "test": "vitest run",
     "test:watch": "vitest",
-    "bench": "vitest bench --run"
+    "bench": "vitest bench --run",
+    "publish:npm": "pnpm run build && pnpm publish -r --access public",
+    "publish:npm:dry": "pnpm run build && pnpm publish -r --access public --dry-run --no-git-checks"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
