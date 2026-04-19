@@ -6,6 +6,8 @@ The instance still exposes **`store.state`** as an alias of the public reactive 
 
 It ships as a **tree-shakable** monorepo: use only the packages you need.
 
+**Full documentation:** [docs/README.md](docs/README.md)
+
 ---
 
 ## Why StoreX?
