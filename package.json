@@ -7,7 +7,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "bench": "vitest bench --run",
-    "publish:npm": "pnpm run build && pnpm publish -r --access public",
+    "publish:npm": "pnpm run build && pnpm publish -r --access public --no-git-checks",
     "publish:npm:dry": "pnpm run build && pnpm publish -r --access public --dry-run --no-git-checks"
   },
   "devDependencies": {

@@ -45,9 +45,10 @@ From the repository root:
 pnpm publish:npm
 ```
 
-This runs **`pnpm run build`**, then **`pnpm publish -r --access public`**.
+This runs **`pnpm run build`**, then **`pnpm publish -r --access public --no-git-checks`**.
 
 - **`-r`**: publish each non-private workspace package in dependency order.
+- **`--no-git-checks`**: allows publish with an uncommitted working tree. Omit it (run `pnpm publish -r --access public` yourself) if you want pnpm to require a clean Git tree first.
 - **`workspace:*`** dependencies are rewritten to the **published semver** of sibling packages in the tarball.
 
 ## Package names on npm

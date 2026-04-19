@@ -351,7 +351,7 @@ From the repo root (after `npm login` and with rights to the **`@storex`** scope
 
 ```bash
 pnpm publish:npm:dry   # build + pack, no upload
-pnpm publish:npm       # build + publish all workspace packages
+pnpm publish:npm       # build + publish (no git-clean requirement; see docs/publishing.md)
 ```
 
 Details: [docs/publishing.md](docs/publishing.md).
