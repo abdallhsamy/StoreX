@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/images/StoreX-logo.png" alt="StoreX" width="280" height="75" />
+</p>
+
 # StoreX
 
 **StoreX** is a TypeScript-first state layer for **Vue 3** where each store is a **setup function**—the same idea as **Pinia setup stores**: create **`ref` / `computed` / plain functions** inside the function, **return** what should be public on the store instance, and read reactive fields without a separate **`state` / `getters` / `actions`** options object.
