@@ -1,0 +1,17 @@
+{
+  "name": "@storex/cli",
+  "version": "0.1.0",
+  "type": "module",
+  "sideEffects": false,
+  "bin": {
+    "storex": "./dist/cli.js"
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "typescript": "^5.8.3"
+  }
+}

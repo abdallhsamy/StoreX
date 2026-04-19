@@ -1,0 +1,14 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./packages/core" },
+    { "path": "./packages/persist" },
+    { "path": "./packages/devtools" },
+    { "path": "./packages/ssr" },
+    { "path": "./packages/testing" },
+    { "path": "./packages/pinia-compat" },
+    { "path": "./packages/redux-compat" },
+    { "path": "./packages/cli" },
+    { "path": "./packages/storex" }
+  ]
+}

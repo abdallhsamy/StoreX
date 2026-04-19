@@ -1,0 +1,12 @@
+node_modules
+dist
+
+# Accidental tsc emit into @storex/core src shadows imports like `./foo.js` in Vitest
+packages/core/src/*.js
+packages/core/src/*.js.map
+packages/core/src/*.d.ts
+packages/core/src/*.d.ts.map
+*.tsbuildinfo
+.DS_Store
+coverage
+.idea
